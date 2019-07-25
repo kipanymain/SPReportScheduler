@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2042
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPReportScheduler", "SPReportScheduler\SPReportScheduler.csproj", "{7235C9CB-F3A0-49C2-8E07-C0A82093E3A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EngineAdmin", "EngineAdmin\EngineAdmin.csproj", "{407AE6EA-ADEA-4E22-8834-13D648BA9842}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7235C9CB-F3A0-49C2-8E07-C0A82093E3A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7235C9CB-F3A0-49C2-8E07-C0A82093E3A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7235C9CB-F3A0-49C2-8E07-C0A82093E3A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407AE6EA-ADEA-4E22-8834-13D648BA9842}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407AE6EA-ADEA-4E22-8834-13D648BA9842}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407AE6EA-ADEA-4E22-8834-13D648BA9842}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{407AE6EA-ADEA-4E22-8834-13D648BA9842}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

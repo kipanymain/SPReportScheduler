@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cb24efe34db04fb79914825425337414" Name="Diagram1">
+        <EntityTypeShape EntityType="RevenueConnectModel.Activity" Width="1.5" PointX="3" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ActivityAttribute" Width="1.5" PointX="5.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.AgedCampaign" Width="1.5" PointX="15.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.AgedDailyLead" Width="1.5" PointX="17.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ApplicationGroup" Width="1.5" PointX="8" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ApplicationGroupRole" Width="1.5" PointX="10.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ApplicationUserGroup" Width="1.5" PointX="10.25" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.AspNetRole" Width="1.5" PointX="5.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.AspNetUserClaim" Width="1.5" PointX="10.25" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.AspNetUserLogin" Width="1.5" PointX="10.25" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.AspNetUser" Width="1.5" PointX="8" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.AspNetUserToken" Width="1.5" PointX="19.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.CampaignOutput" Width="1.5" PointX="25.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.CLIENT" Width="1.5" PointX="21.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ContactAttribute" Width="1.5" PointX="3" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ContactNavigation" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ContactRecord" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ContactRecord2" Width="1.5" PointX="23.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ContactRecordDetail" Width="1.5" PointX="3" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ContactRecordDetail2" Width="1.5" PointX="25.75" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ContactTask" Width="1.5" PointX="3" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ContactVariable" Width="1.5" PointX="3" PointY="21.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.CUSTOMER" Width="1.5" PointX="22.75" PointY="16.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.FBImpressionData" Width="1.5" PointX="5.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.IDRServiceQueue" Width="1.5" PointX="3" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.LeadLookup" Width="1.5" PointX="25.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.LeadLookupDetail" Width="1.5" PointX="28" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.LeadRecord" Width="1.5" PointX="25.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.LeadRecordAttribute" Width="1.5" PointX="28" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.LEAD" Width="1.5" PointX="3" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.LEADS_Archive" Width="1.5" PointX="7.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.LeadView" Width="1.5" PointX="27.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.Location" Width="1.5" PointX="25" PointY="16.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.Log" Width="1.5" PointX="12.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.OrderDetail" Width="1.5" PointX="5.25" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.Order" Width="1.5" PointX="3" PointY="33.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.QualifiedLeadSegment" Width="1.5" PointX="27.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.Report" Width="1.5" PointX="14.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptAction" Width="1.5" PointX="16.75" PointY="27.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptCalculation" Width="1.5" PointX="27.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptClause" Width="1.5" PointX="15.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptClient" Width="1.5" PointX="11" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptClientEnvironment" Width="1.5" PointX="13.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptClientUser" Width="1.5" PointX="13.25" PointY="10.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptDash" Width="1.5" PointX="15" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptDataView" Width="1.5" PointX="27.75" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptHTML" Width="1.5" PointX="27.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptImage" Width="1.5" PointX="12.75" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptItem" Width="1.5" PointX="10.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptItemKey" Width="1.5" PointX="13" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptItemSelector" Width="1.5" PointX="27.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptLayout" Width="1.5" PointX="5.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptLayoutDetail" Width="1.5" PointX="8" PointY="23" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptLink" Width="1.5" PointX="9.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptLookup" Width="1.5" PointX="20.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptLookupDetail" Width="1.5" PointX="23" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptMenu" Width="1.5" PointX="12.75" PointY="14.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptObject" Width="1.5" PointX="20.75" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptObjectDetail" Width="1.5" PointX="23" PointY="22.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptProject" Width="1.5" PointX="18" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptProjectVariable" Width="1.5" PointX="20.25" PointY="18.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptProjectWorkflow" Width="1.5" PointX="20.25" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptQuestion" Width="1.5" PointX="21" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptQuestionare" Width="1.5" PointX="21" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptQuestionareDetail" Width="1.5" PointX="23.25" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptSection" Width="1.5" PointX="5.75" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptSectionLayout" Width="1.5" PointX="8" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptTextHTML" Width="1.5" PointX="18.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptValidator" Width="1.5" PointX="18.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptVariable" Width="1.5" PointX="15.75" PointY="12" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptVariableDetail" Width="1.5" PointX="18" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptWorkflow" Width="1.5" PointX="18" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.WorkflowLayout" Width="1.5" PointX="29.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ZipCode" Width="1.5" PointX="29.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.AggregatedCounter" Width="1.5" PointX="29.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.Counter" Width="1.5" PointX="29.75" PointY="17.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.Hash" Width="1.5" PointX="29.75" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.Job" Width="1.5" PointX="13.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.JobParameter" Width="1.5" PointX="16" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.JobQueue" Width="1.5" PointX="29.75" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.List" Width="1.5" PointX="29.75" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.Schema" Width="1.5" PointX="14.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.Server" Width="1.5" PointX="29.75" PointY="29.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.Set" Width="1.5" PointX="30.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.State" Width="1.5" PointX="16" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.APITestLead" Width="1.5" PointX="20.75" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.CampaignLimit" Width="1.5" PointX="22.75" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.CampaignOutputSegment" Width="1.5" PointX="5.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.CampaignOutputSendLog" Width="1.5" PointX="30.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.CAMPAIGN" Width="1.5" PointX="24.75" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.CampaignSegment" Width="1.5" PointX="31.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.CotactRecord_temp" Width="1.5" PointX="31.75" PointY="14.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.FBaccount" Width="1.5" PointX="31.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.FBad" Width="1.5" PointX="14.75" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.FBadset" Width="1.5" PointX="31.75" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.FBcampaign" Width="1.5" PointX="31.75" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.FBImpression" Width="1.5" PointX="31.75" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.LEADS_ATTRIBUTE" Width="1.5" PointX="26.75" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.leads_data" Width="1.5" PointX="31.75" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.LEADS_SENT_LOG" Width="1.5" PointX="32.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.LeadSegment" Width="1.5" PointX="7.75" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.OutputSegment" Width="1.5" PointX="9.75" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.PixelTracking" Width="1.5" PointX="32.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.REVENUE" Width="1.5" PointX="28.75" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ScriptWorkflowBackup" Width="1.5" PointX="11.75" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.Segment" Width="1.5" PointX="33.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.TRANSACTION" Width="1.5" PointX="33.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.URL" Width="1.5" PointX="33.75" PointY="13.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ZipList" Width="1.5" PointX="33.75" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ActiveOutputSegment" Width="1.5" PointX="16.75" PointY="33.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.ActiveSegment" Width="1.5" PointX="33.75" PointY="19.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.AgedOutputSegment" Width="1.5" PointX="33.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.CampaignDetail" Width="1.5" PointX="33.75" PointY="24.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.DailyAdResult" Width="1.5" PointX="33.75" PointY="28.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.DailyCostbyAd" Width="1.5" PointX="33.75" PointY="32.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.LeadExport" Width="1.5" PointX="34.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.QualifiedLeadDetail" Width="1.5" PointX="13.75" PointY="34.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="RevenueConnectModel.QualifiedLead" Width="1.5" PointX="35.75" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="RevenueConnectModel.FK_Activity_ContactRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ActivityAttribute_Activity" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ApplicationGroupRoles_ApplicationGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ApplicationUserGroup_ApplicationGroup" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ApplicationUserGroup_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptClientUser_AspNetUsers" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ContactAttribute_ContactRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ContactNavigation_ContactRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ContactRecordDetail_ContactRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ContactTask_ContactRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ContactVariables_ContactRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_IDRServiceQueue_ContactRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_LEADS_ContactRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_Orders_ContactRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK__Location__Custom__42ACE4D4" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_LeadLookupDetail_ScriptLookup" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_LeadRecordAttribute_LeadRecord" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_OrderDetails_Orders" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptVariableDetail_ScriptClause" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptClientEnvironment_ScriptClient" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptClientUser_ScriptClient" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptDash_ScriptImage" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptDash_ScriptMenu" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptProject_ScriptImage" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptItemKey_ScriptItem" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptLayoutDetail_ScriptLayout" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptLookupDetail_ScriptLookup" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptProject_ScriptMenu" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptObjectDetail_ScriptObject" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptProjectVariable_ScriptProject" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptProjectWorkflow_ScriptProject" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptProjectWorkflow_ScriptWorkflow" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptQuestion_ScriptValidator" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptQuestionareDetail_ScriptQuestion" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptQuestionareDetail_ScriptQuestionare" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptSectionLayout_ScriptSection" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_ScriptVariableDetail_ScriptVariable" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_HangFire_JobParameter_Job" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.FK_HangFire_State_Job" ManuallyRouted="false" />
+        <AssociationConnector Association="RevenueConnectModel.AspNetUserRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
