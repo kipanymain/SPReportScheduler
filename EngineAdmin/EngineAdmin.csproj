@@ -251,7 +251,6 @@
     <Content Include="App_Data\RadCaptcha\X.wav" />
     <Content Include="App_Data\RadCaptcha\Y.wav" />
     <Content Include="App_Data\RadCaptcha\Z.wav" />
-    <Content Include="campaigns.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-grid.css" />
     <Content Include="Content\bootstrap-grid.min.css" />
@@ -260,7 +259,6 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
-    <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Account\Web.config" />
@@ -270,13 +268,6 @@
     <Content Include="App_Data\RadSpell\de-DE.tdf" />
     <Content Include="App_Data\RadSpell\en-US.tdf" />
     <Content Include="App_Data\RadSpell\fr-FR.tdf" />
-    <EntityDeploy Include="RevConnect.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>RevConnect.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <Content Include="RevConnect.edmx.diagram">
-      <DependentUpon>RevConnect.edmx</DependentUpon>
-    </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -301,16 +292,6 @@
     <Content Include="Content\bootstrap-grid.css.map" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
-    <Content Include="RevConnect.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>RevConnect.edmx</DependentUpon>
-      <LastGenOutput>RevConnect.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="RevConnect.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>RevConnect.edmx</DependentUpon>
-      <LastGenOutput>RevConnect.cs</LastGenOutput>
-    </Content>
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
     <Content Include="Scripts\jquery-3.3.1.slim.js" />
@@ -459,42 +440,6 @@
     <Compile Include="Account\VerifyPhoneNumber.aspx.designer.cs">
       <DependentUpon>VerifyPhoneNumber.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ActiveOutputSegment.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ActiveSegment.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Activity.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ActivityAttribute.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AgedCampaign.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AgedDailyLead.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AgedOutputSegment.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AggregatedCounter.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="APITestLead.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ApplicationGroup.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ApplicationGroupRole.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ApplicationUserGroup.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="About.aspx.cs">
       <DependentUpon>About.aspx</DependentUpon>
@@ -506,53 +451,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="AspNetRole.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AspNetUser.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AspNetUserClaim.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AspNetUserLogin.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="AspNetUserToken.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
     <Compile Include="auth.cs" />
-    <Compile Include="CAMPAIGN.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CampaignDetail.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CampaignLimit.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CampaignOutput.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CampaignOutputSegment.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CampaignOutputSendLog.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="campaigns.aspx.cs">
-      <DependentUpon>campaigns.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="campaigns.aspx.designer.cs">
-      <DependentUpon>campaigns.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="CampaignSegment.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CLIENT.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -560,295 +459,12 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ContactAttribute.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ContactNavigation.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ContactRecord.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ContactRecord2.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ContactRecordDetail.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ContactRecordDetail2.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ContactTask.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ContactVariable.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CotactRecord_temp.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Counter.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="CUSTOMER.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DailyAdResult.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="DailyCostbyAd.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="FBaccount.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="FBad.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="FBadset.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="FBcampaign.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="FBImpression.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="FBImpressionData.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Hash.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="IDRServiceQueue.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Job.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="JobParameter.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="JobQueue.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LEAD.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LeadExport.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LeadLookup.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LeadLookupDetail.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LeadRecord.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LeadRecordAttribute.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LeadSegment.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LEADS_Archive.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LEADS_ATTRIBUTE.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="leads_data.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LEADS_SENT_LOG.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="LeadView.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="List.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Location.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Log.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="myauthorizationfilter.cs" />
-    <Compile Include="Order.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="OrderDetail.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="OutputSegment.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="PixelTracking.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QualifiedLead.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="QualifiedLeadDetail.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="QualifiedLeadSegment.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Report.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="RevConnect.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RevConnect.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="RevConnect.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="RevConnect.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>RevConnect.edmx</DependentUpon>
-    </Compile>
-    <Compile Include="REVENUE.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Schema.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptAction.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptCalculation.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptClause.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptClient.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptClientEnvironment.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptClientUser.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptDash.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptDataView.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptHTML.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptImage.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptItem.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptItemKey.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptItemSelector.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptLayout.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptLayoutDetail.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptLink.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptLookup.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptLookupDetail.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptMenu.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptObject.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptObjectDetail.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptProject.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptProjectVariable.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptProjectWorkflow.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptQuestion.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptQuestionare.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptQuestionareDetail.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptSection.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptSectionLayout.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptTextHTML.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptValidator.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptVariable.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptVariableDetail.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptWorkflow.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ScriptWorkflowBackup.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Segment.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Server.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Set.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -864,30 +480,12 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
-    <Compile Include="State.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="TRANSACTION.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="URL.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
-    </Compile>
-    <Compile Include="WorkflowLayout.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ZipCode.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
-    </Compile>
-    <Compile Include="ZipList.cs">
-      <DependentUpon>RevConnect.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -950,7 +548,7 @@
           <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
         </WebProjectProperties>
       </FlavorProperties>
-      <UserProperties UseJQuerySupport="True" UseAjaxifiedTemplates="True" />
+      <UserProperties UseAjaxifiedTemplates="True" UseJQuerySupport="True" />
     </VisualStudio>
   </ProjectExtensions>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

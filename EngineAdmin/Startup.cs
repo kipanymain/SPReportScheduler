@@ -12,7 +12,7 @@ namespace EngineAdmin
         public void Configuration(IAppBuilder app) {
             ConfigureAuth(app);
 
-            string cs = ConfigurationManager.ConnectionStrings["RevenueConnectEntities"].ConnectionString;
+            //string cs = ConfigurationManager.ConnectionStrings["RevenueConnectEntities"].ConnectionString;
 
             var storage1 = new SqlServerStorage("Data Source = db101; Initial Catalog = spReportScheduler; User ID = poprocksuser; Password = rock#roll");
             //app.UseHangfireDashboard("/hangfire", new DashboardOptions(),storage1);
